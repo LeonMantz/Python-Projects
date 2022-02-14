@@ -30,6 +30,13 @@ print(max(list))
 print('\n')
 print("Η ΕΛΑΧΙΣΤΗ ΤΙΜΗ ΤΟΥ KEY ΠΟΥ ΕΠΙΛΕΞΑΤΕ ΕΙΝΑΙ:")
 print(min(list))
+print('\n')
+
+from collections import Counter
+c = Counter(list)
+print("Η ΔΗΜΟΦΙΛΕΣΤΕΡΗ ΤΙΜΗ ΤΟΥ KEY ΠΟΥ ΔΩΣΑΤΕ ΕΙΝΑΙ ΚΑΙ ΕΜΦΑΝΙΖΕΤΑΙ ΤΟΣΕΣ ΦΟΡΕΣ ΟΣΕΣ Ο ΑΡΙΘΜΟΣ ΔΕΞΙΑ:")
+print(c.most_common(1))
+
 
 
 
